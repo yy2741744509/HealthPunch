@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anity.healthpunch"
+    android:versionCode="130"
+    android:versionName="1.3.1" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="32" />
+
+    <!-- 访问sd卡需要添加的权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 用于获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- 用于访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 用于写入缓存数据到扩展存储卡 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 用于申请调用A-GPS模块 -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" /> <!-- 如果设置了target >= 28 如果需要启动后台定位则必须声明这个权限 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- 如果您的应用需要后台定位权限，且有可能运行在Android Q设备上,并且设置了target>28，必须增加这个权限声明 -->
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> <!-- 在sdcard中创建/删除文件的权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" /> <!-- 安装apk 需要管理外部存储权限 -->
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" /> <!-- 安装应用请求，Android 8.0 需要 -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <application
+        android:name="com.anity.healthpunch.MyApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/icon"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Daily_Morning_Post"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.anity.healthpunch.GetMiwenActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.anity.healthpunch.ScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.anity.healthpunch.Login_Score_Activity"
+            android:exported="false" />
+
+        <service android:name="com.amap.api.location.APSService" />
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="84dd0301570544d27fdc858ece82aa64" />
+
+        <activity
+            android:name="com.anity.healthpunch.Login_Course_Activity"
+            android:exported="true" />
+        <activity
+            android:name="com.anity.healthpunch.CourseActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.anity.healthpunch.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity> <!-- 使用系统的provider -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="@string/file_provider"
+            android:grantUriPermissions="true" >
+
+            <!-- 配置哪些路径是可以通过FileProvider访问的 -->
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/EasyPermissions.Transparent" />
+    </application>
+
+</manifest>

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.anity.healthpunch.app-mergeReleaseResources-24:/layout/spinner_layout.xml",
+        "source": "com.anity.healthpunch.app-main-26:/layout/spinner_layout.xml"
+    },
+    {
+        "merged": "com.anity.healthpunch.app-mergeReleaseResources-24:/layout/spinner_item.xml",
+        "source": "com.anity.healthpunch.app-main-26:/layout/spinner_item.xml"
+    },
+    {
+        "merged": "com.anity.healthpunch.app-mergeReleaseResources-24:/layout/activity_course_login.xml",
+        "source": "com.anity.healthpunch.app-main-26:/layout/activity_course_login.xml"
+    },
+    {
+        "merged": "com.anity.healthpunch.app-mergeReleaseResources-24:/layout/activity_course.xml",
+        "source": "com.anity.healthpunch.app-main-26:/layout/activity_course.xml"
+    },
+    {
+        "merged": "com.anity.healthpunch.app-mergeReleaseResources-24:/layout/fragment_schedule.xml",
+        "source": "com.anity.healthpunch.app-main-26:/layout/fragment_schedule.xml"
+    },
+    {
+        "merged": "com.anity.healthpunch.app-mergeReleaseResources-24:/layout/activity_main.xml",
+        "source": "com.anity.healthpunch.app-main-26:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.anity.healthpunch.app-mergeReleaseResources-24:/layout/weekdaylayout.xml",
+        "source": "com.anity.healthpunch.app-main-26:/layout/weekdaylayout.xml"
+    }
+]

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path name="external_storage_download" path="Download" />
+
+    <!--sdcard 下所有文件都可以访问
+    <external-path name="external_storage_download" path="." />-->
+</paths>

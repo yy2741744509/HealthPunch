@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efeeeeee"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_layout_height"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/cb_clock"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/item_layout_height"
+            android:layout_weight="1"
+            android:text="手动打卡"
+            android:textSize="11sp" />
+
+        <RadioButton
+            android:id="@+id/cb_insert"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/item_layout_height"
+            android:layout_weight="1"
+
+            android:text="自动打卡"
+            android:textSize="11sp"
+            android:theme="@style/MyEditText" />
+
+
+        <RadioButton
+            android:id="@+id/cb_delete"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/item_layout_height"
+            android:layout_weight="1"
+            android:text="取消打卡"
+            android:textSize="11sp" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="@dimen/item_layout_height"
+            android:layout_weight="1"
+            android:text="关于"
+            android:textSize="11sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="25dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="174dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/about" />
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/about_shape"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:src="@drawable/kb" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/selectSchedule"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="课表查询"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/right" />
+            </RelativeLayout>
+        </LinearLayout>
+<!--
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/about_shape"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:src="@drawable/lianxi" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/contact_qq"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="联系作者"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/right" />
+            </RelativeLayout>
+
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/about_shape"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:src="@drawable/kf" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/contact_kfqq"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="BUG反馈"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/right" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/about_shape"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:src="@drawable/donation" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/donate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="捐赠作者"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/right" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/about_shape"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:src="@drawable/jcgx" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/checkUpdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="检查更新"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/right" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/about_shape"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:src="@drawable/banben" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/app_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/right" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/business"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_layout_height"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/shape_round_rect"
+            android:orientation="horizontal"
+            android:paddingHorizontal="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="    学号："
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_font_size" />
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="请输入12位数字"
+                android:inputType="number"
+                android:maxLength="12"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:theme="@style/MyEditText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_layout_height"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginVertical="8dp"
+            android:background="@drawable/shape_round_rect"
+            android:orientation="horizontal"
+            android:paddingHorizontal="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="    密码："
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_font_size" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="请输入6-18位密码"
+                    android:inputType="textPassword"
+                    android:maxLength="18"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:theme="@style/MyEditText" />
+
+                <CheckBox
+                    android:id="@+id/isShow"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/password_selector"
+                    android:button="@null" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_check"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_layout_height"
+            android:layout_marginHorizontal="25dp"
+            android:background="@drawable/shape_round_rect"
+
+            android:orientation="horizontal"
+            android:paddingHorizontal="20dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="验证码："
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_font_size" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/et_validateCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="4位验证码"
+                    android:inputType="text"
+                    android:maxLength="4"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:theme="@style/MyEditText" />
+
+                <ImageView
+                    android:id="@+id/iv_imageValidateCode"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="4dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/remember_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginVertical="10dp"
+            android:text="记住密码" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:background="#009966"
+            android:enabled="false"
+            android:text="获取定位中..."
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_font_size" />
+
+        <ListView
+            android:id="@+id/tv_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+    </LinearLayout>
+</LinearLayout>

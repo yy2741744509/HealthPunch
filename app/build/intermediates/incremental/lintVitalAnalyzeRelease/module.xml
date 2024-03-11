@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="D:\Android_Project\HealthPunch\app"
+    name=":app"
+    type="APP"
+    maven="HealthPunch:app:"
+    gradle="7.2.2"
+    buildFolder="build"
+    bootClassPath="D:\Android_SDK\platforms\android-32\android.jar;D:\Android_SDK\build-tools\30.0.3\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-32">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:layout_gravity="right"
+        android:id="@+id/score_spinner"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:spinnerMode="dropdown" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1.5"
+                android:gravity="center_vertical"
+                android:text="课程名称"
+                android:textColor="#FF018786"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="成绩"
+                android:textColor="#FF018786"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#FF018786" />
+
+    <ListView
+        android:id="@+id/score_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp" />
+
+
+
+</LinearLayout>

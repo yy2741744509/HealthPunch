@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <array name="week">
+        <item>第 1 周</item>
+        <item>第 2 周</item>
+        <item>第 3 周</item>
+        <item>第 4 周</item>
+        <item>第 5 周</item>
+        <item>第 6 周</item>
+        <item>第 7 周</item>
+        <item>第 8 周</item>
+        <item>第 9 周</item>
+        <item>第 10 周</item>
+        <item>第 11 周</item>
+        <item>第 12 周</item>
+        <item>第 13 周</item>
+        <item>第 14 周</item>
+        <item>第 15 周</item>
+        <item>第 16 周</item>
+        <item>第 17 周</item>
+        <item>第 18 周</item>
+        <item>第 19 周</item>
+        <item>第 20 周</item>
+    </array>
+    <color name="black">#FF000000</color>
+    <color name="monOfDay">#009966</color>
+    <color name="myyellow">#009966</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF018786</color>
+    <color name="purple_700">#FF028786</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="button_font_size">20sp</dimen>
+    <dimen name="common_font_size">17sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="item_layout_height">55dp</dimen>
+    <string name="app_name">校园助手</string>
+    <string name="file_provider">com.anity.healthpunch.fileProvider</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="first_long">课表查询</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="second_long">成绩查询</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <style name="Theme.Daily_Morning_Post" parent="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.Daily_Morning_Post.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.Daily_Morning_Post.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Daily_Morning_Post.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

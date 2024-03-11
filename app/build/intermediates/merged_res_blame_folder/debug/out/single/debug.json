@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\layout_activity_score_login.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\activity_score_login.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\layout_activity_score.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\activity_score.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_about.png.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\about.png"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_about_shape.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\about_shape.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_arrow.png.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\arrow.png"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\layout_activity_course.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\activity_course.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_miwen.png.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\miwen.png"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\xml_shortcuts.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\xml\\shortcuts.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\layout_activity_get_miwen.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\activity_get_miwen.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\xml_data_extraction_rules.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\layout_weekdaylayout.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\weekdaylayout.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.anity.healthpunch.app-merged_res-25:/drawable_schedule_item.xml.flat",
+        "source": "com.anity.healthpunch.app-main-27:/drawable/schedule_item.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_jcgx.png.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\jcgx.png"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\layout_activity_main.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\layout_spinner_item.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_score.png.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\score.png"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_schedule_item.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\schedule_item.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_icon.png.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\icon.png"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\navigation_nav_graph.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_kai.png.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\kai.png"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_kf.png.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\kf.png"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\layout_spinner_layout.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\spinner_layout.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\layout_fragment_schedule.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\fragment_schedule.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_banben.png.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\banben.png"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_bi.png.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\bi.png"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\xml_backup_rules.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_kb.png.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\kb.png"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\xml_file_paths.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\layout_activity_course_login.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\activity_course_login.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_password_selector.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\password_selector.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_right.png.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\right.png"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_donation.png.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\donation.png"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\drawable_shape_round_rect.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\drawable\\shape_round_rect.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-merged_res-25:\\layout_listscore_item.xml.flat",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\listscore_item.xml"
+    }
+]

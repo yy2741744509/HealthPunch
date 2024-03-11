@@ -1,0 +1,45 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="first"
+        android:enabled="true"
+        android:icon="@drawable/kb"
+        android:shortcutShortLabel="@string/first_long"
+        android:shortcutLongLabel="@string/first_long">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.anity.healthpunch"
+            android:targetClass="com.anity.healthpunch.Login_Course_Activity"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="second"
+        android:enabled="true"
+        android:icon="@drawable/score"
+        android:shortcutShortLabel="@string/second_long"
+        android:shortcutLongLabel="@string/second_long">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.anity.healthpunch"
+            android:targetClass="com.anity.healthpunch.Login_Score_Activity"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+<!--    <shortcut
+        android:shortcutId="second"
+        android:enabled="true"
+        android:icon="@drawable/icon"
+        android:shortcutShortLabel="@string/second_short"
+        android:shortcutLongLabel="@string/second_long">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.anity.daily_morning_post"
+            android:targetClass="com.anity.daily_morning_post.MainActivity"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>-->
+
+</shortcuts>

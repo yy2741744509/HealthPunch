@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">校园助手</string>
+    <string name="file_provider">com.anity.healthpunch.fileProvider</string>
+    <string name="first_long">课表查询</string>
+    <string name="second_long">成绩查询</string>
+
+    <array name="week">
+        <item>第 1 周</item>
+        <item>第 2 周</item>
+        <item>第 3 周</item>
+        <item>第 4 周</item>
+        <item>第 5 周</item>
+        <item>第 6 周</item>
+        <item>第 7 周</item>
+        <item>第 8 周</item>
+        <item>第 9 周</item>
+        <item>第 10 周</item>
+        <item>第 11 周</item>
+        <item>第 12 周</item>
+        <item>第 13 周</item>
+        <item>第 14 周</item>
+        <item>第 15 周</item>
+        <item>第 16 周</item>
+        <item>第 17 周</item>
+        <item>第 18 周</item>
+        <item>第 19 周</item>
+        <item>第 20 周</item>
+    </array>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

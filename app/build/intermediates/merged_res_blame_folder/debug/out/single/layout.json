@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-mergeDebugResources-24:\\layout\\spinner_item.xml",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-mergeDebugResources-24:\\layout\\activity_get_miwen.xml",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\activity_get_miwen.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-mergeDebugResources-24:\\layout\\weekdaylayout.xml",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\weekdaylayout.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-mergeDebugResources-24:\\layout\\fragment_schedule.xml",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\fragment_schedule.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-mergeDebugResources-24:\\layout\\activity_score_login.xml",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\activity_score_login.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-mergeDebugResources-24:\\layout\\listscore_item.xml",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\listscore_item.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-mergeDebugResources-24:\\layout\\activity_course.xml",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\activity_course.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-mergeDebugResources-24:\\layout\\activity_main.xml",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-mergeDebugResources-24:\\layout\\activity_score.xml",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\activity_score.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-mergeDebugResources-24:\\layout\\spinner_layout.xml",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\spinner_layout.xml"
+    },
+    {
+        "merged": "com.anity.healthpunch.app-mergeDebugResources-24:/layout/activity_course_login.xml",
+        "source": "com.anity.healthpunch.app-main-27:/layout/activity_course_login.xml"
+    },
+    {
+        "merged": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-mergeDebugResources-24:\\layout\\activity_course_login.xml",
+        "source": "D:\\Android_Gradle\\.gradle\\daemon\\7.3.3\\com.anity.healthpunch.app-main-27:\\layout\\activity_course_login.xml"
+    },
+    {
+        "merged": "com.anity.healthpunch.app-mergeDebugResources-24:/layout/activity_score_login.xml",
+        "source": "com.anity.healthpunch.app-main-27:/layout/activity_score_login.xml"
+    }
+]
