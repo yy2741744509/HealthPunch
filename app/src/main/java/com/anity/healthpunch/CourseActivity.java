@@ -82,9 +82,9 @@ public class CourseActivity extends AppCompatActivity {
         MyApplication app = MyApplication.getInstance();
 
         Calendar cal = Calendar.getInstance();
-        calendar.set(Calendar.YEAR, app.year);
-        calendar.set(Calendar.MONTH, app.month-1);
-        calendar.set(Calendar.DAY_OF_MONTH, app.dayOfMonth);
+        cal.set(Calendar.YEAR, app.year);
+        cal.set(Calendar.MONTH, app.month-1);
+        cal.set(Calendar.DAY_OF_MONTH, app.dayOfMonth);
 
         Long atPresentTime = calendar.getTime().getTime();
         Long targetTime = cal.getTime().getTime();
